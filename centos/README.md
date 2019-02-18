@@ -1,7 +1,8 @@
 # Imagem Base do Alpine
 
 ```
-FROM alpine
+From centos
 MAINTAINER Antonio Novaes - antonionovaesjr@gmail.com
-RUN apk update && apk add net-tools sed bash iproute2 curl wget vim lsof pstree htop shadow iputils
+RUN yum -y update; yum -y install passwd vim iproute nc net-tools lsof htop; yum clean all
+
 ```
