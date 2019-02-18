@@ -1,4 +1,4 @@
-# Imagem Base do Alpine
+# Imagem Base do CentOS
 
 ```
 From centos
